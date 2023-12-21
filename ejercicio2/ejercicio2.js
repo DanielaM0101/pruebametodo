@@ -7,6 +7,20 @@ let edades = [15, 50, 45,];
 for (let i = 0; i < edades.length; i++) {
     alert(` ${i + 1} ${edades[i]} `)
 }
+function edadesMayores(edad) {
+    if (edad >= 25) {
+        return true;
+    } else {
+        return false;
+    };
+};
+alert("edadesMayores: " + edades.filter(edadesMayores).join(", "));
+
+edades.shift
+
+
+
+
 
 
 
